@@ -17,10 +17,13 @@ def decrypt_action():
 app = tk.Tk()
 app.title("File Encryption 'Decipher' Tool")
 
+# Adding padding to buttons
+button_padding = {'padx': 20, 'pady': 10}
+
 encrypt_button = tk.Button(app, text="Encrypt File", command=encrypt_action)
-encrypt_button.pack(pady=10)
+encrypt_button.pack(pady=10, **button_padding)
 
 decrypt_button = tk.Button(app, text="Decrypt File", command=decrypt_action)
-decrypt_button.pack(pady=10)
+decrypt_button.pack(pady=10, **button_padding)
 
 app.mainloop()
