@@ -6,7 +6,7 @@ This is a simple 'decipher :)' tool for encrypting and decrypting files using os
 1. Clone the repo and navigate to the tool directory
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/GJablo/encryption_tool.git
 cd encryption_tool
 ```
 
